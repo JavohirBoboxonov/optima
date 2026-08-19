@@ -4,6 +4,8 @@ Django + DRF backend. MVP scope: English + Math, full statistics dashboard, sing
 
 ## Setup
 ```
+cd backend
+python3 -m venv .venv
 pip install -r requirements/base.txt
 cp .env.example .env
 python manage.py migrate

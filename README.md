@@ -13,6 +13,8 @@ Bitta papkada backend (Django) va frontend (React) birga.
 cd backend
 python -m venv .venv
 .venv\Scripts\activate       # Windows
+python3 -m venv .venv
+source .venv/bin/activate #linux/mac
 pip install -r requirements/base.txt
 copy .env.example .env
 python manage.py makemigrations
